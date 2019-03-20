@@ -51,7 +51,7 @@ Esta forma de colocar as questões em termos de serem Verdadeiras ou Falsas pare
 
 *Instruções / Processos*
 
-As instruções representam uma tarefa básica. São a unidade que executa algo e que após a sua conclusão retornam o controlo do algoritmo ao passo seguinte. As instruções são sempre executadas, não impõe condições para a sua execução e não terminam enquanto a tarefa nela indicada não estiver terminada. 
+As instruções representam uma tarefa básica. São a unidade que executa algo e que após a sua conclusão retornam o controlo do algoritmo ao passo seguinte. As instruções são sempre executadas, não impõe condições para a sua execução e não terminam enquanto a tarefa nela indicada não estiver terminada.
 
 \mf{img/fluxograma-processo}
 
