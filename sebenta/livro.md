@@ -63,7 +63,7 @@ Para facilitar a comunicação entre todos, foi criado um grupo de discussão no
 
 No reino do mundo digital tudo o que utilizamos é executado por programas de computador. Como utilizadores destes programas muitas vezes não pensamos como é que eles são capazes de fazer certas coisas, como desenhar num ecrã ou verificar a ortografia de um texto. Por detrás destas tarefas está a noção de programa. Um programa é um conjunto de instruções agrupadas em tarefas específicas que ditam a forma de funcionar de um computador de forma a cumprir determinadas tarefas.
 
-Um programa é como uma receita de culinária. Contém a lista de ingredientes e as instruções de como manipular esses ingredientes para obter o prato final. 
+Um programa é como uma receita de culinária. Contém a lista de ingredientes e as instruções de como manipular esses ingredientes para obter o prato final.
 
 ## B1. Conceito de Algoritmo
 
@@ -76,15 +76,15 @@ Um algoritmo é composto por diferentes tipos de unidades funcionais. De entras 
 * instruções condicionais
 * ciclos (loops).
 
-## B3. Representações de um Algoritmo - Fluxograma 
+## B3. Representações de um Algoritmo - Fluxograma
 
-A visualização de um algoritmo facilita a compreensão dos passos que o algoritmo executa. Para isso foram desenvolvidos símbolos gráficos que ilustram o comportamento de um algoritmo. Estes diagramas / desenhos técnicos são conhecidos como fluxogramas de execução e foram adotados como um standard ISO (<https://www.iso.org/standard/11955.html>)  a partir de um standard americano ANSI prévio. 
+A visualização de um algoritmo facilita a compreensão dos passos que o algoritmo executa. Para isso foram desenvolvidos símbolos gráficos que ilustram o comportamento de um algoritmo. Estes diagramas / desenhos técnicos são conhecidos como fluxogramas de execução e foram adotados como um standard ISO (<https://www.iso.org/standard/11955.html>)  a partir de um standard americano ANSI prévio.
 
 __Exercício - Desenhar um Algoritmo com yEd.__
 
 Para demonstrar como podemos visualizar um algoritmo vamos utilizar um software de diagramação chamado yEd. O yEd é um software de produção de diagramas gratuito que está disponível para as diversas plataformas de computação (Windows, Mac OS X e linux). Pode ser obtido em <https://www.yworks.com/products/yed>.
 
-A utilização de fluxogramas é de importância crucial para a compreensão de um programa de computador e para comunicar o funcionamento desejado de um processo ou algoritmo. São de tal forma importante que algumas linguagens de programação tentaram inclusive utilizar uma representação de fluxograma como a própria linguagem de programação. Neste tipo de linguagem incluem-se __Flowgorithm__ e __Raptor__. 
+A utilização de fluxogramas é de importância crucial para a compreensão de um programa de computador e para comunicar o funcionamento desejado de um processo ou algoritmo. São de tal forma importante que algumas linguagens de programação tentaram inclusive utilizar uma representação de fluxograma como a própria linguagem de programação. Neste tipo de linguagem incluem-se __Flowgorithm__ e __Raptor__.
 
 A representação de um algoritmo computacional através de um fluxograma também não é a única forma de descrever um algoritmo. Outras representações existem, nomeadamente através da escrita do chamado pseudo-código, ou de utilização de outra linguagem visuais de modelação como __UML2__. No entanto os diagramas de fluxo de execução de um algoritmo, pela sua simplicidade e utilidade continuam a ser os diagramas mais utilizados.
 
@@ -96,13 +96,13 @@ Os principais elementos comuns a todos os fluxogramas são os que dizem respeito
 
 _Princípio e fim do algoritmo_
 
-O princípio e fim de um algoritmo tem sempre que ser indicados por símbolos apropriados. Tradicionalmente o símbolo a utilizar é o observado na figura à esquerda, no entanto outras linguagens derivadas dos fluxogramas adoptaram outros símbolos. À direita os símbolos de start e stop utilizados pela linguagem de modelação UML2. 
+O princípio e fim de um algoritmo tem sempre que ser indicados por símbolos apropriados. Tradicionalmente o símbolo a utilizar é o observado na figura à esquerda, no entanto outras linguagens derivadas dos fluxogramas adoptaram outros símbolos. À direita os símbolos de start e stop utilizados pela linguagem de modelação UML2.
 
 \mfc{img/fluxograma-start-stop}{Esq: início e fim de um fluxogram. Dir: os mesmos elementos em UML2}
 
 *Condições*
 
-Normalmente é comum pensar se uma condição desenhada por um losango pode dar respostas de uma escolha múltipla, eg: “Qual a sua cor favorita do arco-íris?” esta pergunta permite diversas respostas e seria plausível ter um losango com 7 setas de saída. No entanto convém notar que essas 7 opções podem ser substituídas por uma série de condições *verdadeiro*/*falso* do género: 
+Normalmente é comum pensar se uma condição desenhada por um losango pode dar respostas de uma escolha múltipla, eg: “Qual a sua cor favorita do arco-íris?” esta pergunta permite diversas respostas e seria plausível ter um losango com 7 setas de saída. No entanto convém notar que essas 7 opções podem ser substituídas por uma série de condições *verdadeiro*/*falso* do género:
 
 \mf{img/fluxograma-decision}
 
@@ -131,7 +131,7 @@ __Exercício__: Desenhe um fluxograma para o algoritmo que executa todos os dias
 
 1. Acordar.
 1. Sair da cama.
-1. Se a luz estiver apagada, acendê-la. Se por algum motivo não houver luz, abrir persiana. 
+1. Se a luz estiver apagada, acendê-la. Se por algum motivo não houver luz, abrir persiana.
 1. Ir tomar banho.
 1. Vestir
 1. Preparar o pequeno almoço para a família.
@@ -148,15 +148,11 @@ __Exercício__: Desenhe um fluxograma para o algoritmo que executa todos os dias
 
 # Introdução ao desenvolvimento de páginas Web
 
-Nesta secção vamos aprender os fundamentos básicos do funcionamento da internet, e em particular de como são criadas as páginas Web que consultamos na WWW. 
+Nesta secção vamos aprender os fundamentos básicos do funcionamento da internet, e em particular de como são criadas as páginas Web que consultamos na WWW.
 
 A WWW ou Web foi criada por Sir Tim Berners-Lee\sidenote{Para mais informação em relação ao trabalho de Tim Berners-Lee consultar por exemplo \url{https://en.wikipedia.org/wiki/Tim_Berners-Lee} e \url{http://info.cern.ch/Proposal.html}} quanto trabalhava no CERN na Suíça. A Web foi imaginada em 1989 como um sistema de gestão e partilha de informação. Na altura a informação digital era basicamente texto simples (sem formatações nem imagens) e surgiu então a primeira versão do HyperText Transfer Protocol (HTTP). O HTTP é a fundação para a comunicação de dados na Internet. O **hipertexto** é uma forma de adicionar informação relevante a um texto por forma a estabelecer ligações relevantes entre diferentes documentos. Estas ligações são normalmente designadas por hiperligações.
 
 \figc{img/hipertexto-geral}{Exemplo de vários documentos de hipertexto conectados entre si por hipeligações. Imagem de Andreariverac, utilizada sob licença CC BY-SA 3.0 \url{https://creativecommons.org/licenses/by-sa/3.0/deed.en}}
-
-
-
-
 
 \clearpage
 
@@ -164,7 +160,7 @@ A WWW ou Web foi criada por Sir Tim Berners-Lee\sidenote{Para mais informação 
 
 Ao longo das semanas anteriores vimos que é importante que o código `html` e `css` que escrevemos esteja correctamente estruturado. Intuitivamente a sua organização permite uma leitura e compreensão mais rápida e eficaz.
 
-No entanto é necessário ter em atenção que a industria utiliza normalmente convenções que nem sempre são representadas nos _standards_. Essas práticas levam a que se tenha desenvolvido um conjunto de boas práticas cujas regras muitas vezes não estão codificadas em nenhum documento. 
+No entanto é necessário ter em atenção que a industria utiliza normalmente convenções que nem sempre são representadas nos _standards_. Essas práticas levam a que se tenha desenvolvido um conjunto de boas práticas cujas regras muitas vezes não estão codificadas em nenhum documento.
 
 Aqui seguem-se alguns conselhos que devem ter quando estiverem a escrever código para os vossos projectos.
 
@@ -185,19 +181,13 @@ Muito embora os browsers modernos tenham alguma flexibilidade em interpretarem c
 <p class="intro">Este texto que <strong>vos deixo<strong></p>
 <p class="intro">Não será assim muito extenso.</p>
 ```
-O primeiro caso tem diversos erros nomeadamente a utilização do `id` _intro_ por multiplas vezes e o *nesting* errado do `p` e do `strong` no final da primeira linha. Na segunda linha o parágrafo não foi fechado com a *tag* correspondente pelo que também está errada. Com alta probabilidade os dois exemplos seriam renderizados pelo browser de forma semelhante. No entanto a primeira forma é claramente errada.
+
+O primeiro caso tem diversos erros nomeadamente a utilização do `id` _intro_ por múltiplas vezes e o *nesting* errado do `p` e do `strong` no final da primeira linha. Na segunda linha o parágrafo não foi fechado com a *tag* correspondente pelo que também está errada. Com alta probabilidade os dois exemplos seriam renderizados pelo browser de forma semelhante. No entanto a primeira forma é claramente errada.
 
 ## Utilizar elementos semânticos
 
-O HTML 5 possui mais de 100 elementos diferentes. Apesar de parecerem muitos elementos, eles ajudam a dar significado à página web permitindo aos browsers inferirem o objetivo e importância de cada bloco de conteúdo. O HTML 5 introduziu novos elementos semânticos que facilitam e clarificam o que cada conteúdo é. 
+O HTML 5 possui mais de 100 elementos diferentes. Apesar de parecerem muitos elementos, eles ajudam a dar significado à página web permitindo aos browsers inferirem o objetivo e importância de cada bloco de conteúdo. O HTML 5 introduziu novos elementos semânticos que facilitam e clarificam o que cada conteúdo é.
 
-
-
-
-
-
-
- 
 \clearpage
 
 # O modelo da caixa.
@@ -270,19 +260,35 @@ A programação de páginas Web em HTML5 é standard e são muito raros os casos
 
 # Tipografia
 
-A tipografia assume um papel primordial na comunicação visual e isto é naturalmente também importante nas páginas Web. Apesar de a programação de uma página conter o texto num formato agnóstico, é possível definir todos os aspectos de tipografia que o browser deve utilizar para renderizar esse bloco de texto. 
+\textsc{A tipografia assume um papel primordial} na comunicação visual e isto é naturalmente também importante nas páginas Web. Apesar de a programação de uma página conter o texto num formato agnóstico, é possível definir todos os aspectos de tipografia que o browser deve utilizar para renderizar esse bloco de texto.
 
-É no entanto possível não dar nenhuma indicação sobre as características tipográficas do texto da página web, sendo que nesses casos o browser irá assumir um conjunto de padrões e aplicá-los ao texto existente no HTML. 
+É no entanto possível não dar nenhuma indicação sobre as características tipográficas do texto da página web, sendo que nesses casos o browser irá assumir um conjunto de padrões e aplicá-los ao texto existente no HTML.
 
-Para evitar isso é importante que o web designer especifique claramente qual o tipo de fonte que quer utilizar. 
+Para evitar isso é importante que o web designer especifique claramente qual o tipo de fonte que quer utilizar.
 
-O standard define que qualquer fonte que esteja instalada no sistema operativo do utilizador possa ser utilizada, assim como qualquer fonte que possa ser descarregada em formato apropriado, aquando do carregamento da página web. 
+O standard define que qualquer fonte que esteja instalada no sistema operativo do utilizador possa ser utilizada, assim como qualquer fonte que possa ser descarregada em formato apropriado, aquando do carregamento da página web.
+
+A primeira propriedade que normalmente podemos personalizar numa fonte é a cor com que queremos que ela seja desenhada:
 
 ```css
-font-style 
-font-family
-font
+.alerta {
+  color: #FF0000;
+}
 ```
+
+O exemplo anterior define a cor do texto de todos os elementos que possuam a classe `alerta` para vermelho. 
+
+Naturalmente muitas vezes é desejável alterar outras propriedades das fontes. 
+
+```css
+font-family
+font-size
+font-style
+font-variant
+font-weight
+```
+
+## font-family
 
 Para utilizar uma determinada fonte é necessário definir a família da fonte que se quer utilizar. No CSS isso é conseguido definindo a propriedade **font-family** que pode receber uma lista de fontes separadas por vírgulas e.g.
 
@@ -292,20 +298,66 @@ p {
 }
 ```
 
-Neste exemplo os elementos do tipo `P` serão renderizados por uma de três fontes, “Arial”, “Roboto” ou a fonte sem serifa que o browser utilizar por defeito. A utilização será dada pela primeira fonte da lista que o browser conhecer, passando às opções seguintes sempre que as fontes mais à esquerda não estejam disponíveis.
+Neste exemplo os elementos do tipo `P` serão renderizados por uma de três fontes, “Arial”, “Roboto” ou a fonte sem serifa que o browser utilizar por defeito. A prioridade de utilização será dada pela primeira fonte da lista que o browser conhecer, passando às opções seguintes sempre que as fontes mais à esquerda não estejam disponíveis.
 
 No exemplo anterior é ainda possível ver que utilizamos um nome genérico para fontes sem serifa, o **sans-serif**. É possível definir famílias de fontes genéricas que os browsers interpretarão de acordo com os padrões definidos pelo programador. As famílias genéricas que todos os browsers suportam são o **sans-serif** anterior e ainda o **serif** para fontes serifadas, **cursive** para fontes cursivas que imitam a escrita humana, **fantasy** para fontes de fantasia e ilustração, e **monospace** para fontes monoespaçadas. 
 
+Normalmente na especificação das fontes a utilizar não é necessário incluir as aspas quando o nome da fonte não tem espaços. No exemplo anterior **Arial** e **Roboto** podiam ter sido escritas sem as aspas. No caso de utilizarmos fontes com espaços no nome então é necessário utilizar as aspas e.g. “Times New Roman”.
 
+## font-size
 
-Normalmente a especificação das fontes a utilizar não necessita as aspas quando o nome da fonte não tem espaços no nome. No exemplo anterior Arial e Roboto podiam ter sido escritas sem as aspas. No caso de utilizarmos fontes com espaços no nome então é necessário utilizar as aspas e.g. “Times New Roman”.
+A definição do tamanho da fonte é feito com **font-size** como por exemplo:
 
+```css
+div#margem {
+  font-size: 22px;
+}
+```
 
+Neste exemplo a `div` com o `id` **margem** vai utilizar uma font como tamanho de `22px`. 
+
+## font-style
+
+Esta propriedade define se a fonte deve ter um das quatro opções: **normal**, **italic**, **oblique** on **inherit**.
+
+```css
+header > p {
+  font-style: italic;
+}
+```
+
+\mfc{img/normal-italic-oblique}{Garamond, Garamond Itálico e Garamond Oblíquo}Fonte itálica e oblíqua não são a mesma coisa. Enquanto uma fonte oblíqua apresenta normalmente um eixo inclinado, a fonte itálica é normalmente uma variante mais complexa e inspirada num processo caligráfico. As diferenças não são óbvias em muitas fontes.\sidenote{Mais informação sobre estas diferenças pode ser encontrado em \url{https://en.wikipedia.org/wiki/Oblique_type}}
+
+## font-variant
+
+Algumas vezes é importante definir algumas propriedades especiais para alguns elementos das páginas como por exemplo títulos. Nestas alturas podemos desejar utilizar versaletes\sidenote{\textsc{Em tipografia versaletes são} caracteres maiúsculos com dimensões de caracteres minúsculos. São muito utilizados para chamar a atenção para uma palavra, ou para o início de uma frase.}
+
+```css
+.versalete {
+  font-variant: small-caps;
+  color: darkblue;
+}
+```
+
+No exemplo anterior os elementos de HTML que possuirem a classe `versalete` serão desenhados a azul escuro e utilizarão versaletes.
+
+## font-weight
+
+O **peso** de uma fonte é definido pela propriedade **font-weigth**. 
+
+```css
+.titulo {
+  font-weight: bold;
+}
+```
+
+Os valores típicos possíveis para esta propriedade são um de **normal|bold|bolder|lighter|**número**|initial|inherit**.
+
+Pode-se também definir esta propriedade com um número entre 100 e 900, sendo que uma fonte _normal_ corresponde ao valor de 400 e uma fonte **bold** corresponde a um valor de 700; Quando uma fonte não tem o valor escolhido vai utilizar o valor mais próximo. Por exemplo o Times New Roman possui os pesos 400 e 700 pelo que se especificarmos um peso de 900 o browser utilizará o 700.
 
 ## Importar fontes não instaladas no computador do utilizador
 
 Muitas vezes o designer pretende utilizar certos tipos de letra que não estão disponíveis nos computadores dos utilizadores. Para essas situações o designer pode importar tipos de letra a partir de recursos externos. Para isso utiliza-se a regra CSS **@font-face**\sidenote{\textbf{@font-face} devem ser declaradas imediatamente no topo do nosso ficheiro CSS de forma a poder utilizar a fonte no CSS. }.
-
 
 ```css
 @font-face {
