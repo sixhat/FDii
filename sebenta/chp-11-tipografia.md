@@ -95,6 +95,34 @@ Os valores típicos possíveis para esta propriedade são um de **normal|bold|bo
 
 Pode-se também definir esta propriedade com um número entre 100 e 900, sendo que uma fonte _normal_ corresponde ao valor de 400 e uma fonte **bold** corresponde a um valor de 700; Quando uma fonte não tem o valor escolhido vai utilizar o valor mais próximo. Por exemplo o Times New Roman possui os pesos 400 e 700 pelo que se especificarmos um peso de 900 o browser utilizará o 700.
 
+## line-height
+
+A distância entre linhas sucessivas do texto html pode ser definida pela propriedade **line-height**
+
+```css
+.linha-dupla {
+  line-height:2em;
+}
+```
+
+Neste exemplo os elementos HTML que possuirem a classe `linha-dupla` vão implementar uma distância entre linhas de `2em`.\sidenote{\textsc{A utilização da unidade} \textit{em} permite definir medidas em relação ao tamanho da fonte do elemento. Desta forma se posteriormente se alterar o tamanho do texto com \texttt{font-size} não é preciso redefinir o tamanho de entrelinha.}
+
+
+
+## Agrupando propriedades numa linha
+
+As propriedades apresentadas são extensas, mas é possível agrupá-las todas numa propriedade agregada **font**:
+
+```css
+.citacao {
+  font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+```
+
+Note que com uma linha apenas definimos as propriedades **font-style, font-variant, font-weight, font-size/line-height, font-family**. 
+
+
+
 ## Importar fontes não instaladas no computador do utilizador
 
 Muitas vezes o designer pretende utilizar certos tipos de letra que não estão disponíveis nos computadores dos utilizadores. Para essas situações o designer pode importar tipos de letra a partir de recursos externos. Para isso utiliza-se a regra CSS **@font-face**\sidenote{\textbf{@font-face} devem ser declaradas imediatamente no topo do nosso ficheiro CSS de forma a poder utilizar a fonte no CSS. }.
