@@ -276,7 +276,7 @@ A primeira propriedade que normalmente podemos personalizar numa fonte é a cor 
 }
 ```
 
-O exemplo anterior define a cor do texto de todos os elementos que possuam a classe `alerta` para vermelho. 
+O exemplo anterior define a cor do texto de todos os elementos que possuam a classe `alerta` para vermelho.
 
 Naturalmente muitas vezes é desejável alterar outras propriedades das fontes. 
 
