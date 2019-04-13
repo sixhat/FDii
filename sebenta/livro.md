@@ -538,7 +538,24 @@ vai produzir uma lista em que os marcadores são círculos:
 \item Elemento 4
 \end{itemize}
 
-A propriedade `list-style-type` aceita diversos tipos de elementos: `disc, circle, square, decimal, lower-roman, upper-roman, lower-greek, lower-latin` são apenas alguns dos elementos suportados para os marcadores dos items das listas.
+A propriedade `list-style-type` aceita diversos tipos de elementos: `disc, circle, square, decimal, lower-roman, upper-roman, lower-greek, lower-latin` são apenas alguns dos elementos suportados para os marcadores dos items das listas\sidenote{Os diferentes estilos podem ser utilizados tanto para listas não ordenadas, como para listas ordenadas, efetivamente transformando um tipo de lista no outro sem distinções}.
+
+## Listas de Definições
+
+Por vezes é preciso criar listas de elementos que seguem mais ou menos o formato de um dicionário ou de um glossário -- Um par **termo definido** / **definição**.
+
+O HTML5 implementa um tipo de listas para estas situações com a tag _definition list_ `dl`. Ao contrário das listas anteriores os elementos internos da `dl` não são `li`, mas sim `dt` e `dd`. O `dt` serve para indicar o termo a ser definido enquanto o `dd` corresponde à definição em si\sidenote{Note a alternância entre elementos \texttt{dt} e elementos \texttt{dd}.}.
+
+```html
+  <dl>
+    <dt>HTML5</dt>
+    <dd>Linguagem de marcação para
+        a produção de páginas Web.</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a aplicação
+        de estilos a páginas Web escritas com HTML.</dd>
+  </dl>
+```
 
 \clearpage
 
