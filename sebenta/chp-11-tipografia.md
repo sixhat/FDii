@@ -18,7 +18,7 @@ A primeira propriedade que normalmente podemos personalizar numa fonte é a cor 
 
 O exemplo anterior define a cor do texto de todos os elementos que possuam a classe `alerta` para vermelho.
 
-Naturalmente muitas vezes é desejável alterar outras propriedades das fontes. 
+Naturalmente muitas vezes é desejável alterar outras propriedades das fontes.
 
 ```css
 font-family
@@ -40,7 +40,7 @@ p {
 
 Neste exemplo os elementos do tipo `P` serão renderizados por uma de três fontes, “Arial”, “Roboto” ou a fonte sem serifa que o browser utilizar por defeito. A prioridade de utilização será dada pela primeira fonte da lista que o browser conhecer, passando às opções seguintes sempre que as fontes mais à esquerda não estejam disponíveis.
 
-No exemplo anterior é ainda possível ver que utilizamos um nome genérico para fontes sem serifa, o **sans-serif**. É possível definir famílias de fontes genéricas que os browsers interpretarão de acordo com os padrões definidos pelo programador. As famílias genéricas que todos os browsers suportam são o **sans-serif** anterior e ainda o **serif** para fontes serifadas, **cursive** para fontes cursivas que imitam a escrita humana, **fantasy** para fontes de fantasia e ilustração, e **monospace** para fontes monoespaçadas. 
+No exemplo anterior é ainda possível ver que utilizamos um nome genérico para fontes sem serifa, o **sans-serif**. É possível definir famílias de fontes genéricas que os browsers interpretarão de acordo com os padrões definidos pelo programador. As famílias genéricas que todos os browsers suportam são o **sans-serif** anterior e ainda o **serif** para fontes serifadas, **cursive** para fontes cursivas que imitam a escrita humana, **fantasy** para fontes de fantasia e ilustração, e **monospace** para fontes monoespaçadas.
 
 Normalmente na especificação das fontes a utilizar não é necessário incluir as aspas quando o nome da fonte não tem espaços. No exemplo anterior **Arial** e **Roboto** podiam ter sido escritas sem as aspas. No caso de utilizarmos fontes com espaços no nome então é necessário utilizar as aspas e.g. “Times New Roman”.
 
@@ -54,7 +54,7 @@ div#margem {
 }
 ```
 
-Neste exemplo a `div` com o `id` **margem** vai utilizar uma font como tamanho de `22px`. 
+Neste exemplo a `div` com o `id` **margem** vai utilizar uma font como tamanho de `22px`.
 
 ## font-style
 
@@ -83,7 +83,7 @@ No exemplo anterior os elementos de HTML que possuirem a classe `versalete` ser�
 
 ## font-weight
 
-O **peso** de uma fonte é definido pela propriedade **font-weigth**. 
+O **peso** de uma fonte é definido pela propriedade **font-weigth**.
 
 ```css
 .titulo {
@@ -141,7 +141,7 @@ Neste exemplo o comando `@font-face` é utilizado para definir um tipo de letra 
 
 A utilização de tipos de letra externos é de grande utilidade para se desenharem websites que não fiquem restritos a tipos de fonte padrão ou aos instalados nos dispositivos dos clientes. Tem no entanto o inconveniente de obrigar a um maior tráfego de dados para o cliente e naturalmente custos extra para o servidor.
 
-Também é necessário ter em linha de conta que a distribuição de tipos de letra pode não estar enquadrado no licenciamento do tipo de letra aquando da sua compra. Muitas vezes a “compra” licencia apenas a produção de material impresso e não a distribuição online. É necessário portanto ter algum cuidado com o licenciamento destes componentes digitais para evitar violações das legislações de propriedade intelectual. 
+Também é necessário ter em linha de conta que a distribuição de tipos de letra pode não estar enquadrado no licenciamento do tipo de letra aquando da sua compra. Muitas vezes a “compra” licencia apenas a produção de material impresso e não a distribuição online. É necessário portanto ter algum cuidado com o licenciamento destes componentes digitais para evitar violações das legislações de propriedade intelectual.
 
 ## Utilizando uma fonte importada
 
@@ -157,7 +157,7 @@ Neste exemplo a fonte MyHelvetica carregada anteriormente é aplicada a todos os
 
 ## Formatos suportados
 
-As fontes a utilizar podem estar em diversos formatos (otf, ttf, woff, woff2) e nem todos são suportados pelos browsers actuais. Assim é conveniente oferecer mais do que um formato na definição de **@font-face,**  utilizando diversos elementos **url** (separados por vírgula). 
+As fontes a utilizar podem estar em diversos formatos (otf, ttf, woff, woff2) e nem todos são suportados pelos browsers actuais. Assim é conveniente oferecer mais do que um formato na definição de **@font-face,**  utilizando diversos elementos **url** (separados por vírgula).
 
 ```css
 src: url(ideal-sans-serif.woff) format("woff"),

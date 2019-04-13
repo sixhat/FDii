@@ -278,7 +278,7 @@ A primeira propriedade que normalmente podemos personalizar numa fonte é a cor 
 
 O exemplo anterior define a cor do texto de todos os elementos que possuam a classe `alerta` para vermelho.
 
-Naturalmente muitas vezes é desejável alterar outras propriedades das fontes. 
+Naturalmente muitas vezes é desejável alterar outras propriedades das fontes.
 
 ```css
 font-family
@@ -300,7 +300,7 @@ p {
 
 Neste exemplo os elementos do tipo `P` serão renderizados por uma de três fontes, “Arial”, “Roboto” ou a fonte sem serifa que o browser utilizar por defeito. A prioridade de utilização será dada pela primeira fonte da lista que o browser conhecer, passando às opções seguintes sempre que as fontes mais à esquerda não estejam disponíveis.
 
-No exemplo anterior é ainda possível ver que utilizamos um nome genérico para fontes sem serifa, o **sans-serif**. É possível definir famílias de fontes genéricas que os browsers interpretarão de acordo com os padrões definidos pelo programador. As famílias genéricas que todos os browsers suportam são o **sans-serif** anterior e ainda o **serif** para fontes serifadas, **cursive** para fontes cursivas que imitam a escrita humana, **fantasy** para fontes de fantasia e ilustração, e **monospace** para fontes monoespaçadas. 
+No exemplo anterior é ainda possível ver que utilizamos um nome genérico para fontes sem serifa, o **sans-serif**. É possível definir famílias de fontes genéricas que os browsers interpretarão de acordo com os padrões definidos pelo programador. As famílias genéricas que todos os browsers suportam são o **sans-serif** anterior e ainda o **serif** para fontes serifadas, **cursive** para fontes cursivas que imitam a escrita humana, **fantasy** para fontes de fantasia e ilustração, e **monospace** para fontes monoespaçadas.
 
 Normalmente na especificação das fontes a utilizar não é necessário incluir as aspas quando o nome da fonte não tem espaços. No exemplo anterior **Arial** e **Roboto** podiam ter sido escritas sem as aspas. No caso de utilizarmos fontes com espaços no nome então é necessário utilizar as aspas e.g. “Times New Roman”.
 
@@ -314,7 +314,7 @@ div#margem {
 }
 ```
 
-Neste exemplo a `div` com o `id` **margem** vai utilizar uma font como tamanho de `22px`. 
+Neste exemplo a `div` com o `id` **margem** vai utilizar uma font como tamanho de `22px`.
 
 ## font-style
 
@@ -343,7 +343,7 @@ No exemplo anterior os elementos de HTML que possuirem a classe `versalete` ser�
 
 ## font-weight
 
-O **peso** de uma fonte é definido pela propriedade **font-weigth**. 
+O **peso** de uma fonte é definido pela propriedade **font-weigth**.
 
 ```css
 .titulo {
@@ -401,7 +401,7 @@ Neste exemplo o comando `@font-face` é utilizado para definir um tipo de letra 
 
 A utilização de tipos de letra externos é de grande utilidade para se desenharem websites que não fiquem restritos a tipos de fonte padrão ou aos instalados nos dispositivos dos clientes. Tem no entanto o inconveniente de obrigar a um maior tráfego de dados para o cliente e naturalmente custos extra para o servidor.
 
-Também é necessário ter em linha de conta que a distribuição de tipos de letra pode não estar enquadrado no licenciamento do tipo de letra aquando da sua compra. Muitas vezes a “compra” licencia apenas a produção de material impresso e não a distribuição online. É necessário portanto ter algum cuidado com o licenciamento destes componentes digitais para evitar violações das legislações de propriedade intelectual. 
+Também é necessário ter em linha de conta que a distribuição de tipos de letra pode não estar enquadrado no licenciamento do tipo de letra aquando da sua compra. Muitas vezes a “compra” licencia apenas a produção de material impresso e não a distribuição online. É necessário portanto ter algum cuidado com o licenciamento destes componentes digitais para evitar violações das legislações de propriedade intelectual.
 
 ## Utilizando uma fonte importada
 
@@ -417,7 +417,7 @@ Neste exemplo a fonte MyHelvetica carregada anteriormente é aplicada a todos os
 
 ## Formatos suportados
 
-As fontes a utilizar podem estar em diversos formatos (otf, ttf, woff, woff2) e nem todos são suportados pelos browsers actuais. Assim é conveniente oferecer mais do que um formato na definição de **@font-face,**  utilizando diversos elementos **url** (separados por vírgula). 
+As fontes a utilizar podem estar em diversos formatos (otf, ttf, woff, woff2) e nem todos são suportados pelos browsers actuais. Assim é conveniente oferecer mais do que um formato na definição de **@font-face,**  utilizando diversos elementos **url** (separados por vírgula).
 
 ```css
 src: url(ideal-sans-serif.woff) format("woff"),
@@ -430,13 +430,16 @@ Para obter os ficheiros nos diversos formatos pode utilizar um serviço online c
 
 # Criar Listas Ordenadas e Desordenadas
 
-Em HTML por vezes temos que criar listas *e.g.* lista de contactos numa aplicação de páginas brancas, ou a lista de hiperligações recomendadas para restaurantes num website de review de restaurantes, ou uma lista de outras notícias num website noticioso. 
+Em HTML por vezes temos que criar listas *e.g.* lista de contactos numa aplicação de páginas brancas, ou a lista de hiperligações recomendadas para restaurantes num website de review de restaurantes, ou uma lista de outras notícias num website noticioso.
 
-A criação de listas é relativamente simples e o HTML incorpora dois tipos de listas fundamentais: Listas não ordenadas (unordered) e ordenadas (ordered). 
+A criação de listas é relativamente simples e o HTML incorpora dois tipos de listas fundamentais: Listas não ordenadas (unordered lists `ul`) e ordenadas (ordered lists `ol`).
 
 ## Listas não ordenadas (UL)
 
-Estas listas são as mais comuns são produzidas pela tag `UL` (unordered list). Dentro dessa tag ul cada elemento da lista é indicado pela tag `li`.
+Estas listas são as mais comuns são produzidas pela tag `ul` (unordered list). Dentro dessa tag `ul` cada elemento da lista é indicado pela tag `li`\sidenote{• Elemento 1\\
+• Elemento 2\\
+• Elemento 3\\
+• Elemento 4}.
 
 ```html
 <ul>
@@ -447,16 +450,12 @@ Estas listas são as mais comuns são produzidas pela tag `UL` (unordered list).
 </ul>
 ```
 
-Resulta em:
-
-* Elemento 1
-* Elemento 2
-* Elemento 3
-* Elemento 4
-
 ## Listas ordenadas (OL)
 
-Estas listas são menos comuns mas também importantes. São utilizadas quando se pretende que os elementos possuam um número de ordenação. 
+Estas listas são menos comuns mas também importantes. São utilizadas quando se pretende que os elementos possuam um número de ordenação e são definidas pela tag `ol`\sidenote{1. Elemento 1\\
+2. Elemento 2\\
+3. Elemento 3\\
+4. Elemento 4}.
 
 ```html
 <ol>
@@ -467,20 +466,60 @@ Estas listas são menos comuns mas também importantes. São utilizadas quando s
 </ol>
 ```
 
-Resulta em:
+As listas ordenadas podem ser personalizadas para começar em valores diferentes do 1, bastando para isso adicionar a propriedade start à tag `OL`\sidenote{20. Elemento 1\\
+21. Elemento 2\\
+22. Elemento 3\\
+23. Elemento 4}.
 
-1. Elemento 1
-2. Elemento 2
-3. Elemento 3
-4. Elemento 4
+```html
+<ol start=20>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+</ol>
+```
+
+é também possível alterar a numeração a meio de uma lista bastando para tal indicá-lo com a propriedade `value`\sidenote{1. Elemento 1\\
+10. Elemento 2\\
+11. Elemento 3\\
+12. Elemento 4}
+
+```html
+<ol>
+      <li>Elemento 1</li>
+      <li value=10>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+</ol>
+```
 
 ## Utilização de listas
 
 As listas são muitas vezes utilizadas para criar sistemas de navegação com menus e submenus uma vez que podem ser colocadas listas dentro de listas (*nesting*) permitindo dessa forma criar hierarquias complexas.
 
+Por exemplo a criação de um sistema de navegação com submenu pode incluir algo semelhante ao seguinte código html.
+
+```html
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/">Trabalhos</a>
+    <ul>
+      <li><a href="/ceramica.html">Cerámica</a></li>
+      <li><a href="/ilustracao.html">Ilustração</a></li>
+      <li><a href="/video.html">Vídeo</a></li>
+    </ul>
+  </li>
+  <li><a href="/mapa.html">Localicação</a></li>
+  <li><a href="/contactos.html">Contactos</a></li>
+</ul>
+```
+
+É importante notar que a introdução de um submenu deve ser feito sempre dentro de um elemento `li`. O standard do HTML 5 exige que os únicos elementos hierarquicamente abaixo de um `ul` sejam `li`. Apesar de outras formas serem ainda assim renderizadas pelos browsers, tal é incorrecto.
+
 ## Personalização de listas
 
-Utilizando CSS é possível alterar consideravelmente a forma como as listas são mostradas pelos browsers. 
+Utilizando CSS é possível alterar consideravelmente a forma como as listas são mostradas pelos browsers.
 
 Para isso é necessário definir a propriedade `list-style-type`
 
@@ -492,7 +531,6 @@ ul {
 
 vai produzir uma lista em que os marcadores são círculos:
 
-
 \begin{itemize}[$\circ$]
 \item Elemento 1
 \item Elemento 2
@@ -500,8 +538,7 @@ vai produzir uma lista em que os marcadores são círculos:
 \item Elemento 4
 \end{itemize}
 
-
-A propriedade `list-style-type` aceita diversos tipos de elementos: `disc, circle, square, decimal, lower-roman, upper-roman, lower-greek, lower-latin` são apenas alguns dos elementos suportados para os marcadores dos items das listas.	
+A propriedade `list-style-type` aceita diversos tipos de elementos: `disc, circle, square, decimal, lower-roman, upper-roman, lower-greek, lower-latin` são apenas alguns dos elementos suportados para os marcadores dos items das listas.
 
 \clearpage
 
